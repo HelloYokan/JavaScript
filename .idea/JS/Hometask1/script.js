@@ -53,3 +53,4 @@ function fifthTask() {
   console.log(fibonachi.slice(0,number));
 }
 fifthTask();
+//end.
