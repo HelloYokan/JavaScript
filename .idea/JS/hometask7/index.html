@@ -6,5 +6,52 @@
 </head>
 <body>
 
+<style>
+  .show {
+    display: none;
+  }
+</style>
+
+<button onclick="randomTextBtnClick()">
+  Press me!
+</button>
+
+<div id = 'list' class="list">
+<ul>
+  <li></li>
+  <li></li>
+</ul>
+<br>
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+<br>
+<ul>
+  <li></li>
+</ul>
+</div>
+
+<div>
+  <p id = 'Text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Aperiam architecto at debitis distinctio fuga ipsum natus nemo quam repellat totam?</p>
+  <button onclick="textVanish()">Click me to do magic!</button>
+  <br>
+  <button onclick="btnVanish()" id = 'vanishBtn'>Press me to hide me!</button>
+  <br>
+  <div style="text-align: center">
+  <button style=" font-size: 20px" onclick="textClickToShow()">Університет</button>
+  </div>
+  <div class="show" id = 'text-show'>
+  <p style="text-align: center;font-size: 15px">Кафедра ICM</p>
+  <p style="text-align: center;font-size: 15px">Кафедра ECM</p>
+  <p style="text-align: center;font-size: 15px">Кафедра політології</p>
+  </div>
+</div>
+<script src="script.js">
+
+</script>
+
 </body>
 </html>
