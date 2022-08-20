@@ -5,9 +5,23 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
+<div class="block">
+  <button id = 'PlusBtn' style="font-size: 20px; font-style: bold" onclick="handlePlusBtn()">+</button>
+  <button id = 'MinusBtn' style="font-size: 20px; font-style: bold" onclick="handleMinusBtn()">-</button>
+  <button id = 'MultiplicationBtn' style="font-size: 20px; font-style: bold" onclick="handleMultiplicationBtn()">*</button>
+  <button id = 'divisonBtn' style="font-size: 20px; font-style: bold" onclick="handleDivisionBtn()">/</button>
+  <hr>
+  <h3 style="text-align: center">First number</h3>
+  <input type="number" id = 'firstNumber' placeholder="first Number"></input>
+  <h3 style="text-align: center">Second number</h3>
+  <input type="number" id = 'secondNumber' placeholder="second Number" size="20">
+  <h2 id = "Result" style="text-align: center">Result : </h2>
+</div>
 
+<script src="script.js"></script>
 </body>
 </html>
